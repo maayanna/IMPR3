@@ -1,0 +1,7 @@
+What happens (and why this happens) to the result blending from section 4 image when :
+Blending is performed with a variying number of pyramid levels(max_levels = 1, 2, 3, 4, 5...)
+
+---> When we do a blending operation using different sizes of pyramid levels, the pyramid is more
+blend. In fact, we build the pyramid to have the highest level with the lowest frequencies
+to then reconstruct using the mask edges(softer)
+And with a small size, we will have sharper images.

@@ -1,0 +1,5 @@
+What happens (and why this happens) to the result blending from section 4 image when :
+Blending is performed with differents image filters (filter_size_im = 1, 3, 5, 7...)
+
+---> When we do a blending action using different sizes for the filter, the quality of the blended image changes
+a few. Smaller is the filter, less blurred is the image.

@@ -1,0 +1,7 @@
+What does it mean to multiply each level in a different value ? What do we try to control on ?
+
+---> The different values we use to multiply each level help us control the weights.
+In fact, we can control each band of frequencies (with these coefficients) that the Laplacian
+level we would like to have in the final image we will receive.
+They are binary coefficients : 0 -> we don't want that level, 1 -> we want that level
+More over, the bigger is the coefficient the frequencies in this level will be higher.
